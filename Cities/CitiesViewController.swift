@@ -17,7 +17,21 @@ class CitiesViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         CityButton.setTitle(city?.name, forState: .Normal)
     }
-
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let identifier = segue.identifier {
+            switch identifier {
+            case "showCityDetail":
+                if let cityDetailViewController = segue.destinationViewController as? CityDetailViewController
+                {
+                  cityDetailViewController.city = self.city
+                }
+            default: break
+            }
+        }
+    }
+    
+    @IBAction func unwindToCities(segue: UIStoryboardSegue){}
+    
 }
 

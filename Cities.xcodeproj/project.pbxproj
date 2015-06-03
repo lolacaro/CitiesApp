@@ -14,6 +14,7 @@
 		F15F154D1B1CA1A80071A430 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15F154B1B1CA1A80071A430 /* LaunchScreen.xib */; };
 		F15F15591B1CA1A80071A430 /* CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F15581B1CA1A80071A430 /* CitiesTests.swift */; };
 		F15F15631B1CA2530071A430 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F15621B1CA2530071A430 /* Model.swift */; };
+		F17343CF1B1F41AE00987843 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17343CE1B1F41AE00987843 /* CityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F15F15571B1CA1A80071A430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15F15581B1CA1A80071A430 /* CitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTests.swift; sourceTree = "<group>"; };
 		F15F15621B1CA2530071A430 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F17343CE1B1F41AE00987843 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				F15F15421B1CA1A80071A430 /* AppDelegate.swift */,
 				F15F15441B1CA1A80071A430 /* CitiesViewController.swift */,
+				F17343CE1B1F41AE00987843 /* CityDetailViewController.swift */,
 				F15F15461B1CA1A80071A430 /* Main.storyboard */,
 				F15F15491B1CA1A80071A430 /* Images.xcassets */,
 				F15F154B1B1CA1A80071A430 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17343CF1B1F41AE00987843 /* CityDetailViewController.swift in Sources */,
 				F15F15631B1CA2530071A430 /* Model.swift in Sources */,
 				F15F15451B1CA1A80071A430 /* CitiesViewController.swift in Sources */,
 				F15F15431B1CA1A80071A430 /* AppDelegate.swift in Sources */,
@@ -415,6 +419,7 @@
 				F15F155E1B1CA1A80071A430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F15F155F1B1CA1A80071A430 /* Build configuration list for PBXNativeTarget "CitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				F15F15611B1CA1A80071A430 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

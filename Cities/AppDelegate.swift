@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        let NewYork = City(name: "New York", image: nil)
+        let NewYork = City(name: "New York", image: UIImage(named: "new-york-city"))
         if let citiesViewController = window?.rootViewController as? CitiesViewController {
             citiesViewController.city = NewYork
         }
